@@ -25,6 +25,9 @@ npm run dev
         
 # 项目预览
 ![image](https://github.com/yuliangbin/Travel/blob/master/images/%E9%A6%96%E9%A1%B5.gif) 
+
+---
+
 ![image](https://github.com/yuliangbin/Travel/blob/master/images/%E5%88%97%E8%A1%A8.gif)
 
 # 项目总结
@@ -116,7 +119,7 @@ npm run dev
 11. 组件的name属性的用途
 
 
-	- 用于<keep-alive>
+	- 用于keep-alive标签
 	- 用于递归组件，当组件调用自身的时候，可以使用自己的名字作为标签名
 	- vue调试工具中每个组件的name
 	
