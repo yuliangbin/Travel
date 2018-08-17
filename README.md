@@ -70,13 +70,17 @@ npm run dev
 	
 		可以用<router-link>包裹到需要点击跳转的那个标签。再用"to"属性给出具体的路径名.
 			
+        <html>
         <router-link><div>hello</div></router-link>
+        </html>
 
 		但这样做router-link默认是a标签，会将div标签里的样式渲染成a标签的。但是我们可以通过tag将其转换成我们想要的标签.
 		
 		另一种做法是直接将div标签替换成router-link标签
-			
+
+        <html>
         <router-link to="" tag="li">hello</router-link>
+        </html>
 
 		虽然默认也是a标签，但是我们可以通过tag将其转换成我们想要的标签
 	- JS方法
@@ -117,6 +121,7 @@ npm run dev
 	组件复用时，想对路由参数的变化做出响应，可以watch $route对象的变化。
 
 11. 组件的name属性的用途
+
 
 
 	- 用于keep-alive标签
