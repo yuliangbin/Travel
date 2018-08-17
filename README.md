@@ -85,7 +85,7 @@ npm run dev
 		虽然默认也是a标签，但是我们可以通过tag将其转换成我们想要的标签
 	- JS方法
 		- 如果是后退，则可以使用**go()或back()方法**.
-		- 如果是跳转页面，可以使用**this.$router.push()******
+		- 如果是跳转页面，可以使用**this.$router.push()**
 
 7. localStorage、sessionStorage
 
